@@ -1,0 +1,6 @@
+{
+	"navigationBarTitleText": "实拍",
+	"enablePullDownRefresh": true,
+	"onPullDownRefresh": true,
+	"onReachBottom": true
+}

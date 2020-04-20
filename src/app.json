@@ -1,0 +1,65 @@
+{
+	"pages": [
+		
+		"pages/index/main",
+		"pages/list/main",
+		"pages/video/main",
+		"pages/mine/main",
+		"pages/articlelist/main",
+		"pages/article/main",
+		"pages/paypwd/main",
+		"pages/setphone/main",
+		"pages/addresslist/main",
+		"pages/addaddress/main",
+		"pages/account/main",
+		"pages/accountlist/main",
+		"pages/score/main",
+		"pages/scorelist/main",
+		"pages/order/main",
+		"pages/orderdetails/main",
+		"pages/paycheck/main",
+		"pages/live/main",
+		"pages/aftersale/main",
+		"pages/jkarticlelist/main",
+		"pages/reg/main",
+		"pages/payscorecheck/main",
+		"pages/webview/main"
+		],
+	"window": {
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundTextStyle": "light",
+		"navigationBarTitleText": "核桃妹的妈妈",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"color": "#ccc",
+		"selectedColor": "#ff5555",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/main",
+				"iconPath": "static/images/1.png",
+				"selectedIconPath": "static/images/6.png"
+			}, {
+				"text": "下单",
+				"pagePath": "pages/list/main",
+				"iconPath": "static/images/2.png",
+				"selectedIconPath": "static/images/7.png"
+			},{
+				"text": "实拍",
+				"pagePath": "pages/video/main",
+				"iconPath": "static/images/4.png",
+				"selectedIconPath": "static/images/9.png"
+			}, {
+				"text": "我的",
+				"pagePath": "pages/mine/main",
+				"iconPath": "static/images/5.png",
+				"selectedIconPath": "static/images/10.png"
+			}
+		],
+
+		"position": "bottom"
+	}
+	
+}
