@@ -412,7 +412,7 @@
 			that.getcategory();
 			//that.searchSet();
 			// 判断是否有列表缓存
-			if (this.remark && wx.getStorageSync('goodslist')) {
+			if (!this.remark && wx.getStorageSync('goodslist')) {
 				let goodslist = wx.getStorageSync('goodslist');
 				that.setgoodslist(goodslist.list, goodslist.totalCount)
 			}

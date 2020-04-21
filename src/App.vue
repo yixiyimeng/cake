@@ -60,7 +60,7 @@
 		},
 		onLaunch() {
 
-
+			wx.removeStorageSync('goodslist')
 			wx.setBackgroundFetchToken({
 				token: '122333'
 			});
@@ -182,7 +182,8 @@
 	.mr10 {
 		margin-right: 10rpx;
 	}
-	.pt10{
+
+	.pt10 {
 		padding-top: 10rpx;
 	}
 
