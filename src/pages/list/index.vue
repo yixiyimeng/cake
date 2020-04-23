@@ -467,12 +467,18 @@
 			getOnegoods() {
 				var that = this;
 				var param = {
-					take_out_flag: this.remark ? 0 : 1,
+					// take_out_flag: this.remark ? 0 : 1,
 					cate_id: that.cate_id,
 					limit: that.limit,
 					page: that.goodspage,
-					up_down: 1
+					up_down: 1,
+					// offline_flag:this.remark ? 1 : 0
 				};
+				if(this.remark){
+					param.offline_flag=1
+				}else{
+					param.take_out_flag=1
+				}
 				api.getgoods(param).then(da => {
 					// console.log(da);
 					if (da.param.code == 200) {
