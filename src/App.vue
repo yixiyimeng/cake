@@ -58,6 +58,9 @@
 		log() {
 			console.log(`log at:${Date.now()}`)
 		},
+		onShow(){
+			this.$audio.play();
+		},
 		onLaunch() {
 
 			wx.removeStorageSync('goodslist')
