@@ -36,7 +36,8 @@
 				</a>
 			</li>
 			<li>
-				<button open-type="contact">
+				<!-- open-type="contact" -->
+				<button >
 					<image src="/static/images/icon30.png" mode="aspectFit" />
 					<p>售后服务</p>
 				</button>

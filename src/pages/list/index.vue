@@ -1,7 +1,8 @@
 <template>
 	<div>
 		<div class="searchbar flex">
-			<button open-type="contact" class="contact">
+			<!--  open-type="contact" -->
+			<button class="contact">
 				<image src="/static/images/kf.png" mode="aspectFit" /></button>
 
 			<div class="flex-1">

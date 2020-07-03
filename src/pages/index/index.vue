@@ -23,7 +23,8 @@
 				</div>
 			</div>
 			<div class="menubox flex">
-				<button open-type="contact" class="orderBtn">
+				<!-- open-type="contact"  -->
+				<button class="orderBtn">
 					<image src="/static/images/11.jpg" class="bgimg" /></button>
 
 				<!-- <div class="orderBtn" @click="showDialog = !showDialog"><image src="/static/images/11.jpg" class="bgimg" /></div> -->
